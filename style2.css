@@ -5,6 +5,8 @@ h1 {
   text-align: center;
   color: white;
 }
-div.align {
-  float: left;
+
+p {
+  width: 270px;
+  margin-top: 10px;
 }
