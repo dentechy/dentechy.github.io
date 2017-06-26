@@ -1,15 +1,22 @@
 
-header {
-  margin-top: 0;
-}
-
 h1 {
   background-color: black;
   text-align: center;
   color: white;
+  margin: 0;
+  padding: 10px;
 }
 
 p {
-  width: 270px;
+  width: 80%;
   margin-top: 10px;
+}
+
+#github {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+#social {
+  padding-top: 30px;
 }
