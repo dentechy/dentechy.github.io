@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Dennis Feliciano Bio</title>
+  <title>Dennis Feliciano</title>
   <link rel="icon" href="favicon.png">
   <link rel="stylesheet" type="text/css" href="http://meyerweb.com/eric/tools/css/reset/reset.css">
   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -11,26 +11,48 @@
 
 <body>
   <header>
-    <h1>Dennis Feliciano</h1>
+    <div class="row">
+      <div class="col-sm-4">
+        <h1>Dennis Feliciano</h1>
+      </div>
+      <div class="col-sm-4">
+      
+      </div>
+      <div class="col-sm-4" id="social">
+          <a id="gmail" target="_blank" href="mailto:dfelici12@gmail.com"><img src="assets/images/gmail.png" alt="email" height="45" width="45"></a>
+          <a id="github" target="_blank" href="https://github.com/dentechy"><img src="assets/images/github.png" alt="github" height="45" width="45"></a>
+          <a id="linkedin" target="_blank" href="https://www.linkedin.com/in/dennis-feliciano/"><img src="assets/images/linkedin.png" alt="linkedin" height="45" width="45"></a>
+      </div>
+    </div>
   </header>
+  <hr>
   <div class="container">
     <div class="row">
       <div class="col-sm-6">
-        <h2>About Me</h2>
-        <img src="assets/images/dennis_pic2.jpg" alt="portrait" height=100px>
-
-        <p>Dennis Feliciano is currently enrolled in Rutgers Coding Bootcamp, a full stack web development program based in Jersey City, NJ. In addition to web development, Dennis is also very skilled with managing Linux systems remotely. He typically writes code in vim, a command line text editor.</p>
+        <img src="assets/images/dennis_pic2.jpg" alt="portrait" height="400" id="self-pic">
       </div>
 
-      <div class="col-sm-6">
-        <h2>Contact Info</h2>
-        <div class="row" id="social">
-          <a id="gmail" target="_blank" href="mailto:dfelici12@gmail.com"><img src="assets/images/gmail.png" alt="email" height="100" width="100"></a>
-          <a id="github" target="_blank" href="https://github.com/dentechy"><img src="assets/images/github.png" alt="github" height="100" width="100"></a>
-          <a id="linkedin" target="_blank" href="https://www.linkedin.com/in/dennisfeliciano25/"><img src="assets/images/linkedin.png" alt="linkedin" height="100" width="100"></a></li>
-        </div>
+      <div class="col-sm-6" id="bio">
+        <p>
+          <strong>Dennis Feliciano</strong> is very passionate about nutrition, fitness and technology. Over the years, he became very knowledgeable in all three. In college he studied biochemistry, learning the fundamentals of just how the body processes food, down to a molecular level. While in college, he also studied and passed a certification examination to become an ACSM certified personal trainer, acquiring useful knowledge along the way on individualized fitness programs and coaching strategies. In grad school, he learned even more about the biochemical aspects of nutrition, such as the metabolic changes that occur during the postprandial state.</p>
+
+        <p>The journey with technology though, began several years ago when he first installed Linux on an old Sony Vaio laptop. Over the years, he would experiment with the command line and eventually enroll in an online course tailored towards Linux system administration. That course provided even more valuable information on managing my own Linux systems, but doing everything strictly through the command line, even editing files through vim. His current Linux systems include a raspberry pi configured as an offsite backup in CT and another that is used as a local file server.</p>
+
+        <p>The progression to web development was only natural from there. He has since enrolled in a full stack web development program, starting with the basics in HTML, CSS and JavaScript and moving to more advanced concepts such as Node.js, Express, mongodb and React. Below is a summary of the projects he has developed thus far. Enjoy!</p>
       </div>
     </div>
+    <hr>
+    <div class="row" id="project-1">
+      <h2 id="file-server">Raspberry Pi File Server Tutorial</h2>
+      <div class="col-sm-6">
+      <p id="project-1-description">One of the first projects Dennis created directly involved his passion for Linux. Essentially a wireframe website was created using HTML and CSS, with an original article explaining step by step how to create a raspberry pi file server, all from the command line. The main prerequisites for following this tutorial are the hardware itself (a raspberry pi, hard drive and network) and access to the terminal from within the raspberry pi.</p>
+      <p>When this file server is setup properly, it is able to share files with most major operating systems, including Windows, mac OS, Linux, Android and iOS. Content such as movies can also be streamed over the local network. View tutorial <a href="https://dentechy.github.io/Raspberry-Pi-File-Server-Tutorial/">here</a></p>
+      </div>
+      <div class="col-sm-6">
+        <img src="assets/images/pi-file-server.png" alt="file-server" height="600">
+      </div>
+    </div>
+    <hr>
   </div>
 
 </body>

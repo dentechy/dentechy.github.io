@@ -1,15 +1,16 @@
 
 h1 {
-  background-color: white;
   text-align: left;
   color: #8b0000;
-  margin: 0;
-  padding: 10px;
+  padding-top: 20px;
+  margin-left: 30px;
+  margin-top: 0;
+  font-size: 300%;
 }
 
 p {
-  width: 80%;
-  margin-top: 10px;
+  margin-top: 20px;
+  font-size: 125%;
 }
 
 #github {
@@ -18,5 +19,17 @@ p {
 }
 
 #social {
-  padding-top: 30px;
+  padding-top: 20px;
+}
+
+#self-pic {
+  padding-top: 40px;
+}
+
+#project-1 {
+  padding-top: 20px;
+}
+
+#project-1-description {
+  padding-top: 40px;
 }
