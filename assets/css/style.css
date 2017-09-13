@@ -26,15 +26,15 @@ p {
   padding-top: 40px;
 }
 
-#project-1 {
+#project-1, #project-2 {
   padding-top: 20px;
 }
 
-#project-1-description {
+#project-1-description, #project-2-description {
   padding-top: 40px;
 }
 
-#file-server {
+#file-server, #mySQL {
   padding-top: 20px;
   width: 90%;
 }
