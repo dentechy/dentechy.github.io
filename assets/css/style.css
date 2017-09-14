@@ -39,7 +39,11 @@ p {
   width: 90%;
 }
 
-#SQL-table, #wine-2, #wine-3 {
+#SQL-table, #wine-2, #wine-3, #termux-1, #termux-2, #tmux {
   width: 90%;
   padding-top: 20px;
+}
+
+#tmux {
+  padding-bottom: 20px;
 }
