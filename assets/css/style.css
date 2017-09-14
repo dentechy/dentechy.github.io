@@ -30,16 +30,16 @@ p {
   padding-top: 20px;
 }
 
-#project-1-description, #project-2-description {
+#project-1-description, #project-2-description, #project-3-description {
   padding-top: 40px;
 }
 
-#file-server, #mySQL {
+#file-server, #mySQL, #wine-1 {
   padding-top: 20px;
   width: 90%;
 }
 
-#SQL-table {
+#SQL-table, #wine-2, #wine-3 {
   width: 90%;
   padding-top: 20px;
 }
