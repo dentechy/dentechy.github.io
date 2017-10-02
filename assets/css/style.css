@@ -60,7 +60,7 @@ p {
   padding-top: 20px;
 }
 
-#cli-digital, #file-server, #wine-movies {
+#cli-digital, #file-server, #wine-movies, #street-wise {
   font-weight: 700;
 }
 
@@ -70,11 +70,11 @@ p {
 
 #file-server, #mySQL, #wine-1, #streetwise1, #streetwise2, #streetwise3 {
   padding-top: 20px;
-  width: 90%;
+  width: 95%;
 }
 
 #SQL-table, #wine-2, #wine-3, #termux-1, #termux-2, #tmux {
-  width: 90%;
+  width: 95%;
   padding-top: 20px;
 }
 
