@@ -1,17 +1,48 @@
-
-h1 {
-  text-align: left;
-  color: #8b0000;
-  padding-top: 20px;
-  margin-left: 10px;
-  margin-top: 0;
-  font-size: 300%;
+body {
+  background-color: #f5f5dc;
 }
+
+.navbar-custom {
+  background-color: #329932;
+}
+
+/*color for #logo*/
+
+#logo {
+  color: white;
+}
+
+.text-brand {
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.descriptor {
+  font-size: 20px;
+  display: block;
+}
+
+#text-bar {
+  color: white;
+  font-size: 130%;
+}
+
+.logo-name {
+  margin-left: 10px;
+  margin-top: -15px;
+}
+
 
 p {
   margin-top: 20px;
   font-size: 125%;
 }
+
+
+#intro {
+  font-family: "Arial";
+}
+
 
 #github {
   margin-right: 10px;

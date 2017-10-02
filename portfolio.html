@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Dennis Feliciano Web Portfolio</title>
+  <link rel="icon" href="favicon.png">
+  <!--Reset-->
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <!--Bootstrap-->
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid navbar-custom">
+
+        <div class="row">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <div class="col-xs-12 phone-nav">
+              <div class="logo-name">
+                <h1><a class="text-brand" href="/" id="logo">DENNIS FELICIANO</a></h1>
+                <h3><a class="descriptor" href="/" id="logo">Web Developer &amp; Terminal Whiz</a></h3>
+              </div>
+            </div>
+          </div>
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right navbar-right-custom">
+              <li><a id="text-bar" href="contact.html">Contact</a></li>
+              <li><a id="text-bar" href="portfolio.html">Portfolio</a></li>
+              <li><a id="text-bar" href="index.html">About Me</a></li>
+              <li><a id="text-bar" href="other.html">Other Skills</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+    <div class="row" id="project-1">
+      <h2 id="file-server">Raspberry Pi File Server Tutorial</h2>
+      <div class="col-sm-6">
+      <p id="project-1-description">One of the first projects Dennis created directly involved his passion for Linux. Essentially a wireframe website was created using HTML and CSS, with an original article explaining step by step how to create a raspberry pi file server, all from the command line. The main prerequisites for following this tutorial are the hardware itself (a raspberry pi, hard drive and network) and access to the terminal from within the raspberry pi.</p>
+      <p>When this file server is setup properly, it is able to share files with most major operating systems, including Windows, mac OS, Linux, Android and iOS. Content such as movies can also be streamed over the local network. View tutorial <a href="https://dentechy.github.io/Raspberry-Pi-File-Server-Tutorial/">here</a></p>
+      </div>
+      <div class="col-sm-6">
+        <img src="assets/images/pi-file-server.PNG" alt="file-server" id="file-server">
+      </div>
+    </div>
+    <hr>
+    <div class="row" id="project-2">
+      <h2 id="file-server">CLI Digital Store</h2>
+      <div class="col-sm-6">
+      <p id="project-2-description">Another project that Dennis worked on was a command line app using node.js and MySQL database. This app once installed on the user's machine, works by first presenting the user the store inventory. Each item has an associated department, price and stock. When the user decides to "purchase" an item, they are presented with the total price (depending on amount requested) and the inventory is updated accordingly. </p>
+      <p>Note that when the user requests to buy more than the available inventory, the app will throw an error message. Github <a href="https://github.com/dentechy/database-store">repo</a> contains detailed instructions on how to set up the CLI app.</p>
+      </div>
+      <div class="col-sm-6">
+        <img src="assets/images/seed-sql.PNG" alt="mySQL" id="mySQL">
+      </div>
+    </div>
+    <div class="row">
+      <img src="assets/images/mySQL-view-store-inventory.PNG" alt="SQL-table" id="SQL-table">
+    </div>
+    <hr>
+
+    <div class="row" id="project-3">
+      <h2 id="wine-movies">WineMovieSearch</h2>
+      <div class="col-sm-6">
+        <p id="project-3-description">In collaboration with the developers on his team, a web app was created that takes in user input and returns a silly wine related gif as the page "loads". This gif disappears, and is replaced by the requested movie information in the form of a movie poster, short plot summary and YouTube trailer. Dennis was primarily in charge of developing the JavaScript backend that returns data that the user requests, using OMDB, Giphy and YouTube APIs and grabbing information from JSON objects returned from AJAX calls. </p> 
+        <p>View project website <a href="https://dentechy.github.io/WineMovieSearch/">here</a></p>
+      </div>
+      <div class="col-sm-6">
+        <img src="assets/images/winemovie1.PNG" alt="wine-1" id="wine-1">
+      </div>
+    </div>
+
+    <div class="row">
+      <img src="assets/images/winemovie2.PNG" alt="wine-2" id="wine-2">
+      <img src="assets/images/winemovie3.PNG" alt="wine-3" id="wine-3">
+    </div>
+
+    <hr>
+    
+    <div class="row">
+      <h2>Dennis truly enjoys coding, especially from within Chrome with SSH, Vim and Tmux!<h2>
+    </div>
+
+    <div class="row">
+      <img src="assets/images/tmux_example.PNG" alt="tmux" id="tmux">
+    </div>
+
+    <hr>
+
+    <div class="row">
+      <h2>Dennis can even code from his phone using termux!<h2>
+    </div>
+
+    <div class="row">
+      <img src="assets/images/termux-node-calculator.png" alt="termux-node-calc" id="termux-1">
+      <img src="assets/images/termux-htop-node.png" alt="termux-htop-node" id="termux-2">
+    </div>
+
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</body>
+</html>
+  
