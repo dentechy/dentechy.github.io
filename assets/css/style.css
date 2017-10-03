@@ -77,3 +77,90 @@ p {
 #termux-2 {
   padding-bottom: 20px;
 }
+
+/* Contact page CSS */
+
+
+#connect-with-me-area {
+  width: 100%;
+
+  /* Box-model */
+  padding: 30px 30px 43px;
+
+  /* Positioning */
+  margin-top: 32px;
+
+}
+
+.connect-with-me-header {
+  /* Positioning */
+  margin-bottom: 15px;
+
+  /* Typography */
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.contact-form {
+  width: 100%;
+
+  /* Box-model */
+  padding: 45px 10px 25px 31px;
+
+  /* Positioning */
+  margin-top: 30px;
+
+}
+
+.contact-form-header,
+.port-header {
+  /* Positioning */
+  margin-bottom: 33px;
+
+  /* Typography */
+  font-size: 32px;
+  font-weight: bold;
+}
+
+#name_input,
+#mail_input,
+#msg {
+  width: 95%;
+
+  /* Box-model */
+  height: 30px;
+
+  /* Positioning */
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+#msg {
+  /* Box-model */
+  height: 200px;
+
+  /* Visual */
+  border-color: #bbc;
+}
+
+.label-name,
+.label-msg,
+.label-mail {
+  /* Typography */
+  font-size: 17px;
+  color: #000000;
+}
+
+.submit-btn {
+  /* Box-model */
+  padding: 15px 30px;
+  font-size: 16px;
+  font-weight: lighter;
+
+  /* Typography */
+  color: #fff;
+
+  /* Visual */
+  background-color: #4aaaa5;
+  border: 0;
+}
