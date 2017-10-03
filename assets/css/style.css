@@ -1,5 +1,6 @@
 body {
   background-color: #f5f5dc;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .navbar-custom {
@@ -37,11 +38,6 @@ p {
   margin-top: 20px;
   font-size: 125%;
 }
-
-#intro {
-  font-family: "Arial";
-}
-
 
 #github {
   margin-right: 10px;
