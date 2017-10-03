@@ -1,6 +1,8 @@
 body {
   background-color: #f5f5dc;
   font-family: 'Ubuntu', sans-serif;
+  margin: 0 auto;
+  padding: 0 auto;
 }
 
 .navbar-custom {
@@ -78,89 +80,41 @@ p {
   padding-bottom: 20px;
 }
 
+
 /* Contact page CSS */
 
-
-#connect-with-me-area {
+div.code {
   width: 100%;
-
-  /* Box-model */
-  padding: 30px 30px 43px;
-
-  /* Positioning */
-  margin-top: 32px;
-
+  margin-top: -25px;
+  height: 320px;
 }
 
-.connect-with-me-header {
-  /* Positioning */
-  margin-bottom: 15px;
-
-  /* Typography */
-  font-size: 25px;
-  font-weight: bold;
+#contact-me {
+  text-align: center;
+  color: white;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%); 
+  font-weight: 800;
 }
 
-.contact-form {
-  width: 100%;
-
-  /* Box-model */
-  padding: 45px 10px 25px 31px;
-
-  /* Positioning */
-  margin-top: 30px;
-
+#code-phrase {
+  text-align: center;
+  color: white;
+  position: relative;
+  top: 55%;
+  transform: translateY(-55%); 
+  font-weight: 700;
 }
 
-.contact-form-header,
-.port-header {
-  /* Positioning */
-  margin-bottom: 33px;
-
-  /* Typography */
-  font-size: 32px;
-  font-weight: bold;
+#code-background {
+  background-image: url("../images/code.PNG");
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-color: transparent;
 }
 
-#name_input,
-#mail_input,
-#msg {
-  width: 95%;
-
-  /* Box-model */
-  height: 30px;
-
-  /* Positioning */
-  margin-top: 20px;
-  margin-bottom: 15px;
-}
-
-#msg {
-  /* Box-model */
-  height: 200px;
-
-  /* Visual */
-  border-color: #bbc;
-}
-
-.label-name,
-.label-msg,
-.label-mail {
-  /* Typography */
-  font-size: 17px;
-  color: #000000;
-}
-
-.submit-btn {
-  /* Box-model */
-  padding: 15px 30px;
-  font-size: 16px;
-  font-weight: lighter;
-
-  /* Typography */
-  color: #fff;
-
-  /* Visual */
-  background-color: #4aaaa5;
-  border: 0;
+.connect-with-me-photo {
+  height: 80px;
 }
